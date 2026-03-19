@@ -63,3 +63,8 @@ tituloCorrecto = titulo.title()
 ## swapCase() permite cambiar entre mayusculas y minusculas
 swapCaseTitulo = tituloCorrecto.swapcase()
 print(swapCaseTitulo)
+
+nombre = "Guzman"
+nombre2 = "Henriquez"
+comparar = nombre.casefold() == nombre2.casefold
+print(comparar)
