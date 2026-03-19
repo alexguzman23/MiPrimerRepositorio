@@ -50,3 +50,7 @@ cancion_minuscula = cancion.lower()
 ##print(poema_minuscula)
 
 ## tiene que ingresar 100 nombres en mayuscula
+mensaje = "hOlA kACe progRaMando o qUe HaCe"
+## Capitalize a que la primera letra de cada palabra sea mayuscula
+mensajeCorrecto = mensaje.capitalize()
+##print(mensajeCorrecto)
