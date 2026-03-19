@@ -1,0 +1,52 @@
+# las comillas triples son las que se encargan de hacer
+# Cadenas de texto largas sin mdoficar el formato.
+# texto corto
+poema2 = (" Es porque un pajarito de la montaña ha hecho",)
+"en el hueco de un árbol, su nido matinal"
+"que el árbol amanece con música en el pecho",
+"como que si tuviera corazón musical"
+
+
+# textos largos ''' o """
+cancion = """Chale, ya se apagó la llama
+Desde esa noche van tres noches que no llama
+Yo llamé y llamé y tú estabas con otro güey
+Ya valió v, que no vamos a volver
+Este amor que es anormal. """
+
+## print(cancion)
+
+## computadora -> que variable queres imprimir
+## print() =>
+# void -> no devuelve nada
+# objeto -> devuelve un tipo de dato
+
+## realizar una wiki tambien pueder darle doble clic docuemtno y se les
+## despligar el editor de texto
+
+## MAYUSCULAS
+## multabilidad  -> siempre debemos evitar transformar objeto original
+## clases -> estereotipo (como un molde)
+## propiedades ->
+## color
+#  tipo de motor ( electricos o de gas)
+# Ojos
+# color de pelo
+
+# funciones -> string ( cadenas de texto) es un objeto
+# moverse
+# frenar
+# cargarse
+# descargarse
+
+# poema es un espacio de memoria  para string
+# se va a llenar con el contenido de  poema alterar con la accion Upper ( mayusculas)
+cancion_Mayusculas = cancion.upper()
+##print(cancion_Mayusculas)
+# convertir en minusculas
+## string .lower
+
+cancion_minuscula = cancion.lower()
+##print(poema_minuscula)
+
+## tiene que ingresar 100 nombres en mayuscula
